@@ -64,7 +64,7 @@ console.log(g);
 var firstWord = f.substring(6,16);
 console.log(firstWord);
 //7q
-var sliced = challenge.slice(0, 14); 
+var sliced = f.slice(0, 14); 
 console.log(sliced);
 //8q
 var f = 'learn Javascript';
