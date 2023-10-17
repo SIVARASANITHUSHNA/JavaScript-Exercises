@@ -49,33 +49,33 @@ console.log("MyAge: " + myAge);
 console.log("Your Age: " + yourAge);
 //day2
 // 1q
-var challenge = 'learn Javascript';
+var f = 'learn Javascript';
 //2q
-console.log(challenge);
+console.log(f);
 //3q
-console.log(challenge.length);
+console.log(f.length);
 //4q
-var uppercaseChallenge = challenge.toUpperCase();
-console.log(uppercaseChallenge);
+var fg = f.toUpperCase();
+console.log(fg);
 //5q
-var lowercaseChallenge = challenge.toLowerCase();
-console.log(lowercaseChallenge);
+var g = f.toLowerCase();
+console.log(g);
 //6q
-var firstWord = challenge.substring(6,16);
+var firstWord = f.substring(6,16);
 console.log(firstWord);
 //7q
 var sliced = challenge.slice(0, 14); 
 console.log(sliced);
 //8q
-var challenge = 'learn Javascript';
-console.log(challenge.includes('learn')) 
+var f = 'learn Javascript';
+console.log(f.includes('learn')) 
 //9q
-var words = challenge.split(" ");
+var words = f.split(" ");
 console.log(words);
 //10q
 var n = "learn Javascript";
-const wordsArray = n.split(" ");
-console.log(wordsArray);
+const nm = n.split(" ");
+console.log(nm);
 //11
 const box = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
 const add = box.split(", ");
@@ -88,24 +88,24 @@ var st = 'learn Javascript';
 var ch = st.charAt(15);
 console.log(ch); 
 //14
-var str = 'learn Javascript';
-var charCode = str.charCodeAt(6); // Index 6 corresponds to 'J' in the string
-console.log(charCode);
+var gh = 'learn Javascript';
+var hi = gh.charCodeAt(6); 
+console.log(hi);
 //15
-var str = 'learn Javascript';
-var position = str.indexOf('a');
-console.log(position);
+var ij = 'learn Javascript';
+var k = ij.indexOf('a');
+console.log(k);
 //16
-var str = 'learn Javascript';
-var position = str.lastIndexOf('a');
-console.log(position);
+var abc = 'learn Javascript';
+var cde = abc.lastIndexOf('a');
+console.log(cde);
 //17
-var sentence = 'You cannot end a sentence with because because because is a conjunction';
-var position = sentence.indexOf('because');
-console.log(position);
+var efg = 'You cannot end a sentence with because because because is a conjunction';
+var hij = efg.indexOf('because');
+console.log(hij);
 //18
-var position = sentence.lastIndexOf('because');
-console.log(position);
+var hij = efg.lastIndexOf('because');
+console.log(hij);
 //19
 var sentence = 'You cannot end a sentence with because because because is a conjunction';
 var position = sentence.search(/\bbecause\b/);
@@ -117,11 +117,11 @@ console.log(trimmedStr);
 //21
 var str = 'learn Javascript is fun';
 var startsWithLearn = str.startsWith('learn Javascript');
-console.log(startsWithLearn); // Should be true
+console.log(startsWithLearn); 
 //22
 var str = 'learn Javascript';
 var matches = str.match(/a/g);
-console.log(matches); // Should return an array of ['a', 'a']
+console.log(matches); 
 //23
 var firstStr = '30 Days of';
 var secondStr = ' JavaScript';
